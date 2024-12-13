@@ -24,8 +24,8 @@ from .. import *
 
 buttons = [
     [
-        Button.url("مجموعة المساعدة", "t.me/jmthon_support"),
-        Button.url("قناة السورس", "t.me/Jmthon"),
+        Button.url("مجموعة المساعدة", "t.me/"),
+        Button.url("قناة السورس", "t.me/"),
     ]
 ]
 
