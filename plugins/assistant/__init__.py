@@ -28,7 +28,7 @@ async def inline_alive(o):
                     Button.url(
                         "قناة السورس", url=" "
                     ),
-                    Button.url("مجموعة المساعدة", url="t.me/Jmthon_Support"),
+                    Button.url("مجموعة المساعدة", url="t.me/ "),
                 ],
             ],
             title="سورس جمثون",
