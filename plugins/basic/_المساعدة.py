@@ -73,7 +73,7 @@ def get_doc_from_module(name, type=""):
             return get_from_funcs(mod, name)
         msg = f"**⌔∮ الأوامر المتاحة في قائمة {name}**\n\n"
         msg += mod.__doc__.format(i=HNDLR)
-        msg += "\n ©️ @Jmthon"
+        msg += "\n ©️  "
         return msg
 
 def get_from_funcs(mod, name):
@@ -91,7 +91,7 @@ def get_from_funcs(mod, name):
     msg = f"**⌔∮ الأوامر المتاحة في قائمة {name}**"
     for cmd in funcs:
         msg += f"\n\n• {cmd[1].__doc__.format(*list(HNDLR*len(funcs)))}"
-    msg += "\n ©️ @Jmthon"
+    msg += "\n ©️  "
     return msg
 
 DEF_CONFIG = {"plugins": {}, "helpers": {}, "manager": {}}
@@ -116,7 +116,7 @@ def get_doc(module, type=""):
         for cmd in help:
             msg += f"- \n{HNDLR}{cmd}\n"
     if msg:
-        msg += "\n ©️ @Jmthon"
+        msg += "\n ©️  "
     return msg
 
 @jmthon_cmd("الاوامر($| (.*))")
@@ -267,7 +267,7 @@ async def uptd_plugin(event):
     help_ = get_doc(file, key)
     if not help_:
         help_ = f"**⌔∮ القائمة {file} لا تحتوي على شرح في قائمة المساعدة حاليا**"
-        help_ += "\n© @Jmthon"
+        help_ += "\n©  "
     buttons = []
     data = f"get_{key}_"
     if index is not None:

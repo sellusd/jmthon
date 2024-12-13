@@ -70,7 +70,7 @@ async def AddToNewPack(packType, file, emoji, sender_id, title: str):
             title=title,
             short_name=sn,
             stickers=[SetItem(file, emoji=emoji)],
-            software="@Jmthon",
+            software=" ",
         )
     )
 
@@ -210,7 +210,7 @@ async def kang_func(event):
             get_[event.sender_id].update({type_: [sn]})
         jmdB.set_key("STICKERS", get_)
         return await event.edit(
-            f"**⌔∮ تم النسخ بنجاح ✅\n❃ الايموجي:** {emoji}\n**❃ الرابط :** [اضغط هنا](addstickers/{sn})\n**❃ السورس: @Jmthon**",
+            f"**⌔∮ تم النسخ بنجاح ✅\n❃ الايموجي:** {emoji}\n**❃ الرابط :** [اضغط هنا](https://t.me/addstickers/{sn})\n**❃ السورس:  **",
             link_preview=False
         )
     name = get_[event.sender_id][type_][-1]
@@ -230,14 +230,14 @@ async def kang_func(event):
         get_[event.sender_id][type_].append(pack.set.short_name)
         jmdB.set_key("STICKERS", get_)
         return await event.edit(
-            f"**⌔∮ تم بنجاح صنع حزمة جديدة\n❃ الايموجي:** {emoji}\n**❃ الرابط :** [اضغط هنا](addstickers/{sn})\n**❃ سورس جمثون @Jmthon**",
+            f"**⌔∮ تم بنجاح صنع حزمة جديدة\n❃ الايموجي:** {emoji}\n**❃ الرابط :** [اضغط هنا](https://t.me/addstickers/{sn})\n**❃ سورس جمثون  **",
             link_preview=False
         )
     except Exception as er:
         LOGS.exception(er)
         return await event.edit(str(er))
     await event.edit(
-        f"**⌔∮ تم بنجاح اضافة الملصق لـحزمتك**\n**❃ الرابط :** [أضغط هنا](https://t.me/addstickers/{name})\n**❃ سورس جمثون @Jmthon**",
+        f"**⌔∮ تم بنجاح اضافة الملصق لـحزمتك**\n**❃ الرابط :** [أضغط هنا](https://t.me/addstickers/{name})\n**❃ سورس جمثون  **",
         link_preview=False
     )
 

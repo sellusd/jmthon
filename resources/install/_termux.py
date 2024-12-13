@@ -118,9 +118,9 @@ print(with_header(f"\n{Fore.GREEN}Installation complete! 🥳"))
 sleep(0.2)
 print(f"Use 'cd jmthon && python3 -m jmthon' to run Jmthon.{Fore.RESET}")
 sleep(0.5)
-print("\nFor help, join @Jmthon_Support.")
+print("\nFor help, join  .")
 sleep(0.5)
-print("\nMade by @Jmthon.")
+print("\nMade by  .")
 
 system("pip uninstall -q colorama -y")
 

@@ -761,7 +761,7 @@ async def in_pm_ans(event):
                 await event.builder.document(
                     res,
                     title="نظام حماية جمثون الأنلاين",
-                    description="~ @Jmthon",
+                    description="~  ",
                     text=msg_,
                     buttons=buttons,
                     link_preview=False,
@@ -778,7 +778,7 @@ async def in_pm_ans(event):
                 title="نظام حماية جمثون الأنلاين",
                 type=type,
                 text=msg_,
-                description="~ @Jmthon",
+                description="~  ",
                 include_media=include_media,
                 buttons=buttons,
                 thumb=cont,

@@ -40,8 +40,8 @@ PING_PIC = JmdB.get_key("PING_PIC") or "https://files.catbox.moe/bk64x4.jpg"
 JM_TXT = "ابتسم فهناك شتاء قادم وصباحات ٌممطرةٌ . ."
 
 
-in_alive = "{}\n\n❃ <b>إصدار جمثون -><b> <code>{}</code>\n❃ <b>إصدار البايثون -></b> <code>{}</code>\n❃ <b>مدة التشغيل -></b> <code>{}</code>\n\n<b>قناة السورس @Jmthon</b>"
-alive_1 = "**سورس جمثون يعمل بنجاح ✅**\n\n❃ **مالك الحساب** - `{}`\n❃ **إصدار جمثون** - `{}`\n❃ **مدة التشغيل** - `{}`\n❃ **إصدار البايثون** - `{}`\n❃ **إصدار التيليثون** - `{}`\n@Jmthon"
+in_alive = "{}\n\n❃ <b>إصدار جمثون -><b> <code>{}</code>\n❃ <b>إصدار البايثون -></b> <code>{}</code>\n❃ <b>مدة التشغيل -></b> <code>{}</code>\n\n<b>قناة السورس  </b>"
+alive_1 = "**سورس جمثون يعمل بنجاح ✅**\n\n❃ **مالك الحساب** - `{}`\n❃ **إصدار جمثون** - `{}`\n❃ **مدة التشغيل** - `{}`\n❃ **إصدار البايثون** - `{}`\n❃ **إصدار التيليثون** - `{}`\n "
 
 
 @callback("alive")
@@ -155,7 +155,7 @@ async def inline_alive(e):
                     await builder.document(
                         pic,
                         title="Inline Alive",
-                        description="@Jmthon",
+                        description=" ",
                         parse_mode="html",
                         buttons=buttons,
                     )

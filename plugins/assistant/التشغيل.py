@@ -42,7 +42,7 @@ def get_start_message():
 
 **❃ نظام التواصل**: {JmdB.get_key("PMBOT")}
 
-**❃ سورس جمثون: [v{version}] ، @Jmthon**
+**❃ سورس جمثون: [v{version}] ،  **
 """
     return Owner_info_msg, _custom
 
@@ -66,7 +66,7 @@ async def own(event):
         mention=inline_mention(event.sender), me=inline_mention(jmubot.me)
     )
     if custom:
-        msg += "\n\n❃ تم صنعه بواسطة: **@Jmthon**"
+        msg += "\n\n❃ تم صنعه بواسطة: ** **"
     await event.edit(
         msg,
         buttons=Button.inline("اغلاق", data="closeit"),

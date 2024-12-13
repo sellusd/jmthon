@@ -20,9 +20,9 @@ OWNER = jmubot.full_name
 CWD = Path.cwd()
 
 MSG = f"""
-**⌔∮ بوت سورس جمثون @Jmthon**
+**⌔∮ بوت سورس جمثون  **
 ❃ **المالك**: [{OWNER}](tg://user?id={jmubot.uid})
-❃ **الـدَعمُ**: @Jmthon_support
+❃ **الـدَعمُ**:  
 """
 
 
