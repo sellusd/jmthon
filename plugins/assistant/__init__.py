@@ -26,7 +26,7 @@ async def inline_alive(o):
             buttons=[
                 [
                     Button.url(
-                        "قناة السورس", url="https://T.me/Jmthon"
+                        "قناة السورس", url=" "
                     ),
                     Button.url("مجموعة المساعدة", url="t.me/Jmthon_Support"),
                 ],

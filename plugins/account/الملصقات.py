@@ -210,7 +210,7 @@ async def kang_func(event):
             get_[event.sender_id].update({type_: [sn]})
         jmdB.set_key("STICKERS", get_)
         return await event.edit(
-            f"**⌔∮ تم النسخ بنجاح ✅\n❃ الايموجي:** {emoji}\n**❃ الرابط :** [اضغط هنا](https://t.me/addstickers/{sn})\n**❃ السورس: @Jmthon**",
+            f"**⌔∮ تم النسخ بنجاح ✅\n❃ الايموجي:** {emoji}\n**❃ الرابط :** [اضغط هنا](addstickers/{sn})\n**❃ السورس: @Jmthon**",
             link_preview=False
         )
     name = get_[event.sender_id][type_][-1]
@@ -230,7 +230,7 @@ async def kang_func(event):
         get_[event.sender_id][type_].append(pack.set.short_name)
         jmdB.set_key("STICKERS", get_)
         return await event.edit(
-            f"**⌔∮ تم بنجاح صنع حزمة جديدة\n❃ الايموجي:** {emoji}\n**❃ الرابط :** [اضغط هنا](https://t.me/addstickers/{sn})\n**❃ سورس جمثون @Jmthon**",
+            f"**⌔∮ تم بنجاح صنع حزمة جديدة\n❃ الايموجي:** {emoji}\n**❃ الرابط :** [اضغط هنا](addstickers/{sn})\n**❃ سورس جمثون @Jmthon**",
             link_preview=False
         )
     except Exception as er:

@@ -134,7 +134,7 @@ def jmthon_cmd(pattern=None, tgbot=tgbot, **kwargs):
                         Button.url("الموقع", "http://jmthon.deno.dev"),
                         Button.url(
                             "البوت",
-                            "https://t.me/Jmthon",
+                            " ",
                         ),
                     ],
                 )

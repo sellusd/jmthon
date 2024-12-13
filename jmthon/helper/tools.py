@@ -71,7 +71,7 @@ def get_client():
         profile_url = (
             f"https://t.me/{jmubot.me.username}"
             if jmubot.me.username
-            else "https://t.me/Jmthon"
+            else " "
         )
         try:
             client.create_account(

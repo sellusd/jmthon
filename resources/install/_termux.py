@@ -77,7 +77,7 @@ print(
 
 يرجى قراءة شروط وأحكام التنصيب عبر الرابط التالي
 
-https://t.me/JmthonLink/9
+ Link/9
 . {Fore.RESET}
 """
 )

@@ -78,16 +78,16 @@ def in_pattern(pattern=None, owner=False, button=None, **kwargs):
                     [
                         Button.url(
                             "قناة السورس",
-                            url="https://t.me/Jmthon",
+                            url=" ",
                         ),
-                        Button.url("مجموعة جمثون", url="https://t.me/Jmthon_Support"),
+                        Button.url("مجموعة جمثون", url=" "),
                     ]
                 ]
 
                 res = [
                     await event.builder.article(
                         title="سورس جمثون",
-                        url="https://t.me/Jmthon",
+                        url=" ",
                         description="(c) Jmthon",
                         text=MSG,
                         thumb=InputWebDocument(
@@ -130,7 +130,7 @@ def in_pattern(pattern=None, owner=False, button=None, **kwargs):
                                 title="حدثت مشكلة غير متوقعة",
                                 text=graphLink,
                                 buttons=Button.url(
-                                    "بلغ عنها", "https://t.me/Jmthon_Support"
+                                    "بلغ عنها", " "
                                 ),
                             )
                         ]
